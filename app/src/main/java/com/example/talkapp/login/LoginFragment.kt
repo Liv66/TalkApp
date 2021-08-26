@@ -42,6 +42,9 @@ class LoginFragment : Fragment() {
         mEtEmail = binding.etEmail
         mEtPwd = binding.etPwd
 
+        mEtPwd.text = null
+        mEtEmail.text = null
+
         mBtnLogin = binding.btnLogin
         mBtnRegister = binding.btnRegister0
         progreeBar = binding.progressBar
@@ -58,8 +61,6 @@ class LoginFragment : Fragment() {
                             val loginEmailArg = strEmail
                             val action = LoginFragmentDirections.actionLoginToFriend(loginEmailArg,
                                 currentUid)
-                            mEtPwd.text = null
-                            mEtEmail.text = null
                             findNavController().navigate(action)
                         } else {
                             mEtPwd.text = null

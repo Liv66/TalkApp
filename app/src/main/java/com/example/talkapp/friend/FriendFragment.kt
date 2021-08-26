@@ -77,6 +77,9 @@ class FriendFragment : Fragment() {
             override fun onChildAdded(dataSnapshot: DataSnapshot, previousChildName: String?) {
                 val user = dataSnapshot.getValue(UserAccount::class.java)
                 userArrayList.add(user)
+                if(user!!.idToken == currentUser){
+                    binding.tvName.text = user!!.name
+                }
             }
 
             override fun onChildChanged(snapshot: DataSnapshot, previousChildName: String?) {
@@ -101,6 +104,8 @@ class FriendFragment : Fragment() {
             override fun onDataChange(dataSnapshot: DataSnapshot) {
                 // Get Post object and use the values to update the UI
                 val friend = dataSnapshot.getValue<Any>()
+
+
                 if (friend != null) {
                     val friendlength = friend.toString().length
                     friendArrayList = friend.toString().substring(1, friendlength - 6).split("=true, ")
