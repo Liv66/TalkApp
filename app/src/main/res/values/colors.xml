@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFF</color>
+
+
+    <color name="login_background">#FAE300</color>
+    <color name="login_button_1">#F6F6F6</color>
+    <color name="login_button_2">#594941</color>
+
+
+
+    <color name="bar_color">#ECECED</color>
+    <color name="list_background">#FFFFFF</color>
+    <color name="scrollbar">#CCCCCC</color>
+    <color name="scrollbar_onclick">#7F7F7F</color>
+
+
+    <color name="chat_background">#B2C7D9</color>
+    <color name="chat_header">#A9BDCE</color>
+    <color name="chat_container_1">#FFFF33</color>
+    <color name="chat_container_2">#FFFFFF</color>
+    <color name="text_color">#262626</color>
+    <color name="chat_scrollbar">#8B9AA6</color>
+    <color name="chat_scrollbar_onclick">#737D86</color>
+
+
+</resources>

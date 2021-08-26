@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/friendFragment"
+        android:icon="@drawable/ic_baseline_people_24"
+        android:title="friend" />
+
+    <item
+        android:id="@+id/listFragment"
+        android:icon="@drawable/ic_baseline_message_24"
+        android:title="message"/>
+</menu>

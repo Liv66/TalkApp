@@ -1,0 +1,2 @@
+rootProject.name = "TalkApp"
+include ':app'
